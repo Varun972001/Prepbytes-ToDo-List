@@ -38,3 +38,37 @@
     left:10%;
     opacity: 0.5;
 }
+.card1
+{
+    width:12%;
+    height:25rem;
+    border:0.1rem solid pink;
+    position: relative;
+    bottom:10rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow:0.3rem 0.3rem 1rem grey;
+}
+.card1 .head
+{
+    font-size:2rem;
+    text-align: center;
+    margin:2.2rem 0 1.3rem 0;
+    color:pink;
+}
+.card1 .complete
+{
+    font-size:1.5rem;
+    text-align: center;
+    margin:3rem 0 0 0;
+    color:red;
+    text-decoration: line-through;
+}
+.card1 .pending
+{
+    font-size: 1.5rem;
+}
+.card1 .pen-box
+{
+    margin:2.5rem 0 0 1rem;
+}
