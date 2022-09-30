@@ -80,6 +80,10 @@
 {
     margin:2.5rem 0 0 1rem;
 }
+.page3
+{
+    filter:blur(0.6rem);
+}
 .popup
 {
     display:flex;
@@ -91,7 +95,7 @@
     padding:2rem;
     border-radius: 0.5rem;
     top:30%;
-    left:40%;
+    left:38%;
     box-shadow:0.3rem 0.3rem 1rem grey;
 }
 .popup label
