@@ -1,4 +1,256 @@
-h1
+*
 {
+    margin:0;
+    padding:0;
+    font-size:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-container
+{
+    width:50%;
+    margin:7rem auto;
+}
+.head-container .heading
+{
+    font-size:4rem;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    left:40%;
+    top:7%;
+    width:25rem;
+    font-weight: bold;
+}
+.back-container
+{
+    position: absolute;
+    left:44%;
+    top:25%;
+    display: flex;
+    width:8%;
+    justify-content: space-between;
+}
+.fa-circle-arrow-left
+{
+    font-size:3rem;
     color:red;
+}
+.back-text
+{
+    font-size:3rem;
+    opacity: 0.5;
+}
+.card1
+{
+    width:20%;
+    height:30rem;
+    border:0.1rem solid pink;
+    position: relative;
+    top:13rem;
+    margin:auto;
+    border-radius: 1rem;
+    box-shadow:0.3rem 0.3rem 1rem grey;
+}
+.card1 .head
+{
+    font-size:2rem;
+    text-align: center;
+    margin:2.2rem 0 1.3rem 0;
+    color:pink;
+}
+.card1 .complete
+{
+    font-size:1.5rem;
+    text-align: center;
+    margin:3rem 0 0 0;
+    color:red;
+    text-decoration: line-through;
+}
+.card1 .pending
+{
+    font-size: 1.5rem;
+}
+.card1 .pen-box
+{
+    margin:4rem 0 0 8rem;
+}
+.card1 .fa-circle-plus
+{
+    position: absolute;
+    right:5%;
+    bottom:5%;
+    font-size: 3.5rem;
+    color:red;
+}
+.page4
+{
+    filter: blur(0.6rem);
+}
+.popup
+{
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    height:15%;
+    position: absolute;
+    border:0.2rem solid pink;
+    padding:2rem;
+    border-radius: 0.5rem;
+    top:30%;
+    left:38%;
+    box-shadow:0.3rem 0.3rem 1rem grey;
+}
+.popup label
+{
+    text-align: center;
+    margin:0.5rem 0 1.4rem 0;
+    font-size:1.5rem;
+    color:pink;
+}
+.popup input
+{
+    width:73%;
+    height:2rem;
+    position:relative;
+    left:4rem;
+    border:0.1rem solid pink;
+    border-radius:0.5rem;
+}
+.popup button
+{
+    width:23%;
+    padding: 0.5rem;
+    position:relative;
+    left:40%;
+    top:15%;
+    border-radius: 1rem;
+    border:0.1rem solid pink;
+    background-color: red;
+    color:white;
+    font-size: 1.2rem;
+}
+@media (min-width:320px) and (max-width:480px)
+{
+    .head-container
+    {   
+        position: relative;
+        right:8rem;
+        width:70%;
+        margin:3rem auto;
+    }
+    .head-container hr
+    {
+        display:none;
+    }
+    .head-container .heading
+    {
+        font-size:3.5rem;
+        background-color: white;
+        font-weight: bold;
+    }  
+    .back-container
+    {
+        position: absolute;
+        left:45%;
+        top:20%;
+        display: flex;
+        width:8%;
+        justify-content: space-between;
+    }
+    .fa-circle-arrow-left
+    {
+        font-size:4rem;
+        color:red;
+    }
+    .back-text
+    {
+        font-size:3rem;
+        opacity: 0.5;
+        display:none;
+    } 
+    .card1
+    {
+        width:90%;
+        height:38rem;
+        border:0.1rem solid pink;
+        position: relative;
+        top:20rem;
+        right:0.1rem;
+        border-radius: 1rem;
+        box-shadow:0.3rem 0.3rem 1rem grey;
+    }
+    .card1 .head
+    {
+        font-size:2.5rem;
+        text-align: center;
+        margin:2.2rem 0 1.6rem 0;
+        color:pink;
+    }
+    .card1 .complete
+    {
+        font-size:1.5rem;
+        text-align: center;
+        margin:3rem 0 0 0;
+        color:red;
+        text-decoration: line-through;
+    }
+    .card1 .pending
+    {
+        font-size: 1.5rem;
+    }
+    .card1 .pen-box
+    {
+        margin:4rem 0 0 8rem;
+    }
+    .card1 .fa-circle-plus
+    {
+        position: absolute;
+        right:5%;
+        bottom:5%;
+        font-size: 3.5rem;
+        color:red;
+    }
+    .popup
+    {
+        display:flex;
+        flex-direction: column;
+        width:70%;
+        height:15%;
+        position: absolute;
+        border:0.2rem solid pink;
+        padding:2rem;
+        border-radius: 0.5rem;
+        top:35%;
+        left:3rem;
+        box-shadow:0.3rem 0.3rem 1rem grey;
+    }
+    .popup label
+    {
+        text-align: center;
+        margin:0.5rem 0 1.4rem 0;
+        font-size:1.5rem;
+        color:pink;
+    }
+    .popup input
+    {
+        width:73%;
+        height:2rem;
+        position:relative;
+        left:4rem;
+        border:0.1rem solid pink;
+        border-radius:0.5rem;
+    }
+    .popup button
+    {
+        width:23%;
+        padding: 0.5rem;
+        position:relative;
+        left:40%;
+        top:15%;
+        border-radius: 1rem;
+        border:0.1rem solid pink;
+        background-color: red;
+        color:white;
+        font-size: 1.2rem;
+    }
 }
