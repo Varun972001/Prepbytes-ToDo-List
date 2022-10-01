@@ -42,9 +42,6 @@
 .cards
 {
     display:flex;
-    position: relative;
-    left:20%;
-
 }
 .card1
 {
