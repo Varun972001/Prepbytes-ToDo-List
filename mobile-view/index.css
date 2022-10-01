@@ -80,3 +80,86 @@
 {
     margin:2.5rem 0 0 1rem;
 }
+@media (min-width:320px) and (max-width:480px)
+{
+    .head-container
+    {
+        width:85%;
+        margin:4rem auto;
+        display:flex;
+        justify-content: space-between;
+    }
+    #task
+    {
+        font-size:5rem;
+        font-weight:bold;
+    }
+    #list
+    {
+        font-size:5rem;
+        opacity:0.5;
+    }
+    .fa-circle-plus
+    {
+        font-size:3.5rem;
+        color:red;
+        cursor:pointer;
+    }
+    .add_li
+    {
+        /* font-size: 3rem;
+        position: relative;
+        left:10%;
+        opacity: 0.5; */
+        display:none;
+    }
+    .cards
+    {
+        display:flex;
+        flex-direction:column;
+        position: relative;
+        top:30rem;
+        left:2rem;
+    }
+    .card1
+    {
+        width:90%;
+        height:6rem;
+        border:0.1rem solid pink;
+        position: relative;
+        bottom:30rem;
+        margin: 1rem 0;
+        border-radius: 1rem;
+        box-shadow:0.3rem 0.3rem 1rem grey;
+    }
+    .card1 .head
+    {
+        font-size:2rem;
+        text-align: center;
+        margin:2.2rem 0 1.3rem 0;
+        color:black;
+    }
+    hr
+    {
+        display:none;
+    }
+    .card1 .complete
+    {
+        font-size:1.5rem;
+        text-align: center;
+        margin:3rem 0 0 0;
+        color:red;
+        text-decoration: line-through;
+        display:none;
+    }
+    .card1 .pending
+    {
+        font-size: 1.5rem;
+        display:none;
+    }
+    .card1 .pen-box
+    {
+        margin:2.5rem 0 0 1rem;
+        display:none;
+    }
+}
